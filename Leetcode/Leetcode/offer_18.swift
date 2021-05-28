@@ -11,7 +11,7 @@ import Foundation
 /// https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/
 
 
-public class ListNode {
+private class ListNode {
     public var val: Int
     public var next: ListNode?
     public init(_ val: Int, next: ListNode? = nil) {
@@ -19,10 +19,10 @@ public class ListNode {
         self.next = next
     }
 }
+
 extension ListNode: CustomStringConvertible {
     public var description: String {
         guard let next = next else {
-            print("\(val)")
             return "\(val)"
         }
         let des = "\(val) -> " + String(describing: next)
@@ -31,7 +31,7 @@ extension ListNode: CustomStringConvertible {
 }
 
 
-class Solution {
+private class Solution18 {
     func deleteNode(_ head: ListNode?, _ val: Int) -> ListNode? {
         if head == nil {
             return nil
@@ -54,15 +54,17 @@ class Solution {
     }
 }
 
-let n1 = ListNode(4)
-let n2 = ListNode(1)
-let n3 = ListNode(5)
-let n4 = ListNode(9)
-
-n1.next = n2
-n2.next = n3
-n3.next = n4
-
-let s = Solution()
-print(s.deleteNode(n1, 9))
+func test18() {
+    let n1 = ListNode(4)
+    let n2 = ListNode(1)
+    let n3 = ListNode(5)
+    let n4 = ListNode(9)
+    n1.next = n2
+    n2.next = n3
+    n3.next = n4
+    
+    let s18 = Solution18()
+    let res = s18.deleteNode(n1, 9)
+    print(res ?? "")
+}
 
