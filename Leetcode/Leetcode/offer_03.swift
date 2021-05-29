@@ -49,7 +49,7 @@
 /// 剑指 Offer 03. 数组中重复的数字
 /// https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
 
-class Solution03 {
+private class Solution03 {
     func findRepeatNumber(_ nums: [Int]) -> Int {
         var set = Set<Int>()
         for item in nums {
