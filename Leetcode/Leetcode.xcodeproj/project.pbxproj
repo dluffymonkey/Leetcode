@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ADF3867266623AB00164348 /* offer_50.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF3866266623AB00164348 /* offer_50.swift */; };
 		1AE485152660E6BA00E8FBD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE485142660E6BA00E8FBD6 /* main.swift */; };
 		1AE4851C2660E6D800E8FBD6 /* offer_18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4851B2660E6D800E8FBD6 /* offer_18.swift */; };
 		3A8469772661427700DA8107 /* offer_42.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8469762661427700DA8107 /* offer_42.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1ADF3866266623AB00164348 /* offer_50.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offer_50.swift; sourceTree = "<group>"; };
 		1AE485112660E6BA00E8FBD6 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE485142660E6BA00E8FBD6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1AE4851B2660E6D800E8FBD6 /* offer_18.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = offer_18.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				1AE485142660E6BA00E8FBD6 /* main.swift */,
+				1ADF3866266623AB00164348 /* offer_50.swift */,
 				3AD4BF6E2661F217004ADE6D /* offer_10_1.swift */,
 				3AD4BF202661D339004ADE6D /* offer_03.swift */,
 				3A8469762661427700DA8107 /* offer_42.swift */,
@@ -134,6 +137,7 @@
 				1AE485152660E6BA00E8FBD6 /* main.swift in Sources */,
 				3AD4BF212661D339004ADE6D /* offer_03.swift in Sources */,
 				3AD4BF6F2661F217004ADE6D /* offer_10_1.swift in Sources */,
+				1ADF3867266623AB00164348 /* offer_50.swift in Sources */,
 				3A8469772661427700DA8107 /* offer_42.swift in Sources */,
 				1AE4851C2660E6D800E8FBD6 /* offer_18.swift in Sources */,
 			);
